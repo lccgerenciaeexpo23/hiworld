@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hi word</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #6ab2b4;
+        }
+
+        .navbar {
+            background-color: #3498db;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            background-color: inherit;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #0e8c91;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #076d5f;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .centered-text {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button {
+            margin: 10px;
+            padding: 15px 25px;
+            background-color: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        @media (max-width: 768px) {
+            .button {
+                width: 100%;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Inicio</a>
+        <div class="dropdown">
+            <button class="dropbtn">Menú
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="https://erick-aka-slowed.github.io/erick.sv/">creditos</a>
+            </div>
+        </div>
+        <a href="#" class="centered-text">Hi, World</a>
+    </div>
+
+    <div class="container">
+        <a class="button" href="https://lccgerenciaeexpo23.github.io/noticias/">noticias</a>
+        <a class="button" href="https://lccgerenciaeexpo23.github.io/generador/">generador de contraseñas</a>
+        <a class="button" href="https://lccgerenciaeexpo23.github.io/notass/">blog de notas</a>
+        <a class="button" href="https://lccgerenciaeexpo23.github.io/horasss/">horas local y inter continental</a>
+        <a class="button" href="https://lccgerenciaeexpo23.github.io/cifrador/">cifradores</a>
+        <a class="button" href="https://lccgerenciaeexpo23.github.io/nuevos-jugeosss/">juegos 1</a>
+        <a class="button" href="https://lccgerenciaeexpo23.github.io/calculadoras/">calculadoras</a>
+        <a class="button" href="https://lccgerenciaeexpo23.github.io/juegoss.github.io/">juego dos juegos para moviles</a>
+        <a class="button" href="https://lccgerenciaeexpo23.github.io/promocionn/">informacion</a>
+    </div>
+</body>
+</html>
